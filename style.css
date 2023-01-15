@@ -1,4 +1,7 @@
-
+.main {
+    display: flex;
+    flex-direction: column;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -15,4 +18,36 @@ ul {
     display: flex;
     gap: 20px;
     margin-right: 30px;
+}
+.contenedor {
+    background-color: #e5e7eb ;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+.parrafo {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic ;
+    justify-content: center;
+    text-align: start;
+}
+
+.thor {
+    text-align: end;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #e5e7eb;
+    padding: 20px;
+    background-color: #1f2937;
 }
