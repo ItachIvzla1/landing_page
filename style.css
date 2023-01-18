@@ -70,9 +70,23 @@ ul {
     gap: 100px;
     padding: 20px;
     background-color: #3882F6;
+    border: 3px #3882F6;
+    border-radius: 8px;
+    align-items: center;
 }
 
 .texto {
-    color: #1f2937;
+    color: #e5e7eb;
     font-size: 18px;
+}
+
+.boton {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #3882F6;
+}
+
+.boton:hover {
+    cursor: pointer;
 }
