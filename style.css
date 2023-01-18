@@ -10,6 +10,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
 ul {
     list-style: none;
 }
@@ -62,8 +67,12 @@ ul {
 
 .container {
     display: flex;
-    gap: 200px;
+    gap: 100px;
     padding: 20px;
     background-color: #3882F6;
 }
 
+.texto {
+    color: #1f2937;
+    font-size: 18px;
+}
